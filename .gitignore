@@ -3,3 +3,5 @@ build/*
 bin/*
 !bin/media/
 *.lib
+.cache/
+compile_commands.json

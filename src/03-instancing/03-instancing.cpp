@@ -53,8 +53,7 @@ DEFINE_APP(InstancingExample, "Instancing Example")
 
 static unsigned int seed = 0x13371337;
 
-static inline float random_float()
-{
+static inline float random_float() {
     float res;
     unsigned int tmp;
 

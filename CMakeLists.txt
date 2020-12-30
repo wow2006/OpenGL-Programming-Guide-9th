@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 2.6)
 
-project (vermilion9)
+project (vermilion9 C CXX)
 
 LINK_DIRECTORIES( ${CMAKE_SOURCE_DIR}/lib )
 
@@ -44,7 +44,8 @@ add_library(vermilion
 
 set(RUN_DIR ${PROJECT_SOURCE_DIR}/bin)
 
-set(EXAMPLES
+set(
+  EXAMPLES
   01-keypress
   01-triangles
   03-drawcommands

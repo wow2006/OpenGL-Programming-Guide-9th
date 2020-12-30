@@ -3,7 +3,9 @@
 #include "vbm.h"
 #include "vgl.h"
 
-#include <stdio.h>
+// STL
+#include <cstdio>
+#include <cstring>
 
 VBObject::VBObject(void)
     : m_vao(0),

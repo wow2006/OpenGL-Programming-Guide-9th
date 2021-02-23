@@ -1,5 +1,4 @@
-OpenGL Red Book Example Code
-============================
+# OpenGL Red Book Example Code
 
 This is the example code for the OpenGL Programming Guide (Red Book), 9th Edition.
 It is mostly an import of code from previous editions with minor updates
@@ -8,8 +7,7 @@ We will be adding more samples and updating existing ones over time.
 Treat this as a live repository. Pull requests and issues are welcome.
 Go forth and fork!
 
-Building
---------
+## Building
 
 We are using CMake as our build system. To build the samples, enter
 the "build" subdirectory and enter "cmake -G "{your generator here}" .."
@@ -20,8 +18,7 @@ An update to add support for 2015 will land shortly. Code should compile, but th
 templates for the project files are not in the repository at this time.
 Other compilers and IDEs should work, but we haven't tested them.
 
-Running
--------
+## Running
 
 After building, there will be a large collection of executables in the bin directory.
 These are the example applications, which you can directly execute.
@@ -35,3 +32,4 @@ OpenGL 4.5 support will fail. For example, if a platform were limited to, say Op
 then the samples wouldn't work on that platform. Please don't file bugs about that either.
 Error checking in these applications is minimal. If you don't have media files or if
 your OpenGL drivers are out of date, they'll probably fail spectacularly.
+

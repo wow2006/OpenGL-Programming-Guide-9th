@@ -1,7 +1,3 @@
-build/*
-!build/templates
-bin/*
-!bin/media/
-*.lib
 .cache/
 compile_commands.json
+media.tar.gz
